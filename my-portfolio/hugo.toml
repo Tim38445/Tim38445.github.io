@@ -1,0 +1,29 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'Laravel Hugo project'
+theme = 'port-hugo'
+
+[params]
+  author = "Timothy Hysell"
+  description = "Laravel api project with ORM"
+  github = "https://github.com/Tim38445/ASE230project2"
+  linkedin = "https://www.linkedin.com/in/timothy-hysell-1a209b37b/"
+  email = "hysellt1@mymail.nku.edu"
+
+[menu]
+ [[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+ [[menu.main]]
+ name = "Projects"
+ url = "/projects/"
+ weight = 2
+ [[menu.main]]
+ name = "Documentation"
+ url = "/docs/"
+ weight = 3
+ [[menu.main]]
+ name = "About"
+ url = "/about/"
+ weight = 4
